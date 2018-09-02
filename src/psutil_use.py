@@ -14,11 +14,11 @@ def is_os():
     print('platform.uname()', platform.uname()) # 所有信息
 
 def cpu_info():
-    cpu_frep = psutil.cpu_freq()
+    # cpu_frep = psutil.cpu_freq()
     cpu_per = psutil.cpu_percent() # cpu使用量
     cpu_status = psutil.cpu_stats()
     cpu_times = psutil.cpu_times()
-    print('cpu_frep:', cpu_frep)
+    # print('cpu_frep:', cpu_frep)
     print('cpu_per:', cpu_per)
     print('cpu_status:', cpu_status)
     print('cpu_times:', cpu_times)
